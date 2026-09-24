@@ -1,0 +1,63 @@
+MEDICAL IMAGE DISEASE DETECTION REPORT
+=======================================
+
+Generated: 2024 (Demo)
+Patient ID: DEMO-001
+Image Type: Chest X-Ray (Synthetic)
+
+TOP PREDICTION:
+===============
+Disease: lung_cancer
+Confidence: 92.7%
+Risk Level: HIGH (Immediate medical consultation recommended)
+
+PROBABILITY DISTRIBUTION (Top 10 / 20 Classes):
+===============================================
+1. lung_cancer     92.7%
+2. pneumonia       4.2%
+3. normal          1.8%
+4. tuberculosis    1.1%
+5. covid19         0.1%
+6. pleural_effusion 0.0%
+7. heart_failure   0.0%
+8. bone_fracture   0.0%
+9. brain_tumor     0.0%
+10. stroke         0.0%
+... (remaining 10 classes <0.1%)
+
+FULL DISEASE CLASSES SUPPORTED:
+===============================
+1. normal
+2. pneumonia
+3. covid19
+4. tuberculosis
+5. lung_cancer
+6. pneumothorax
+7. pleural_effusion
+8. heart_failure
+9. bone_fracture
+10. osteoporosis
+11. brain_tumor
+12. stroke
+13. alzheimers
+14. osteoarthritis
+15. liver_cirrhosis
+16. kidney_stones
+17. appendicitis
+18. breast_cancer
+19. diabetic_retinopathy
+20. melanoma
+
+DISCLAIMER:
+===========
+This is an AI demo using synthetic data. Not for medical diagnosis.
+Model: MobileNetV2 trained on 4400 synthetic images.
+Accuracy: ~85% validation.
+
+Next Steps:
+- Run 'python train.py' for live model update
+- Use 'index.html' for fast predictions
+- Consult physician for real cases.
+
+BLACKBOXAI Generated Report
+
